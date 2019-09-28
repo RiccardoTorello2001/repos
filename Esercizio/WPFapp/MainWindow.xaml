@@ -1,0 +1,21 @@
+﻿<Window x:Class="WPFapp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFapp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="400">
+    <Grid>
+        <Image Source="background-1909992__340.jpg" Stretch="Fill"/>
+        <Label x:Name="nascitaGiorno" Content="Il giorno di nascita" HorizontalAlignment="Left" Margin="53,45,0,0" VerticalAlignment="Top" Background="White"/>
+        <Label x:Name="nascitaMese" Content="il mese di nascita" HorizontalAlignment="Left" Margin="53,95,0,0" VerticalAlignment="Top" Background="White"/>
+        <Label x:Name="nascitaAnno" Content="l anno di nascita" HorizontalAlignment="Left" Margin="53,145,0,0" VerticalAlignment="Top" Background="White"/>
+        <Label x:Name="lblResult" Content="" HorizontalAlignment="Left" Margin="53,227,0,0" VerticalAlignment="Top" Background="White" Width="255"/>
+        <TextBox x:Name="txtDay" HorizontalAlignment="Left" Height="26" Margin="209,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="99"/>
+        <TextBox x:Name="txtDay1" HorizontalAlignment="Left" Height="26" Margin="209,95,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="99"/>
+        <TextBox  x:Name="txtDay2" HorizontalAlignment="Left" Height="26" Margin="209,145,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="99"/>
+        <Button Content="Calcola" HorizontalAlignment="Left" Height="31" Margin="137,191,0,0" VerticalAlignment="Top" Width="92" Click="Button_Click"/>
+
+    </Grid>
+</Window>
